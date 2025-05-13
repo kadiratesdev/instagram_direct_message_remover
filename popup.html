@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Message Deleter</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #ffffff;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #2596be;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #2596be;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .discord-section {
+            background: #5865F2;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 15px;
+            transition: transform 0.2s;
+        }
+
+        .discord-section:hover {
+            transform: translateY(-2px);
+        }
+
+        .discord-section a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+        }
+
+        .credits {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .button {
+            background: #2596be;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+            width: 100%;
+        }
+
+        .button:hover {
+            background: #1f7a9a;
+        }
+
+        .features {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+        }
+
+        .features li {
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .features li:before {
+            content: "✓";
+            color: #2596be;
+            position: absolute;
+            left: 0;
+        }
+
+        .discord-icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Instagram Message Deleter</h1>
+        </div>
+
+        <div class="content">
+            <ul class="features">
+                <li>Delete all messages with one click</li>
+                <li>Fast and efficient</li>
+                <li>Safe and secure</li>
+                <li>Easy to use</li>
+            </ul>
+        </div>
+
+        <div class="discord-section">
+            <a href="https://discord.gg/roninrp" target="_blank">
+                Join our Discord Community
+            </a>
+        </div>
+
+        <div class="credits">
+            Made with ❤️ by kadiratesdev<br>
+            Free to use
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
