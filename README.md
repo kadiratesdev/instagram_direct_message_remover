@@ -1,5 +1,3 @@
-# Instagram Message Deleter Chrome Extension
-
 [English](#english) | [Türkçe](#turkish)
 
 <a name="english"></a>
